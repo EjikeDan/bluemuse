@@ -237,7 +237,7 @@ p {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border: none;
-  background: #5864FF;
+  background: #095ca0;
   overflow: hidden;
 }
 
@@ -281,7 +281,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #5864FF;
+  background: #095ca0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -735,7 +735,7 @@ p {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #fdd446;
+  background: #095ca0;
   bottom: 15px;
   left: 0;
   z-index: -1;
@@ -1272,7 +1272,7 @@ p {
 }
 
 .subscribe-section .subscribe-wrapper {
-  background-image: url("../img/subscribe/subscribe-bg.svg");
+  background-image: url("../img/subscribe/sbg.png");
   padding: 65px 50px 50px;
   border-radius: 30px;
 }
@@ -1297,6 +1297,18 @@ p {
 }
 
 .subscribe-section .subscribe-wrapper .subscribe-form input {
+  width: 100%;
+  padding: 20px 30px;
+  padding-right: 142px;
+  border-radius: 18px;
+  background: #fff;
+  color: #5B657E;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.subscribe-section .subscribe-wrapper .subscribe-form textarea {
   width: 100%;
   padding: 20px 30px;
   padding-right: 142px;
@@ -1365,7 +1377,7 @@ p {
 
 /* ======= footer css ======= */
 .footer {
-  background-image: url("../img/footer/footer-bg.svg");
+  background-image: url("../img/footer/fbg.png");
   background-size: cover;
   background-position: top right;
   padding-top: 260px;
