@@ -55,7 +55,23 @@
               <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo/bm-logo-2.jpg" alt="Logo" />
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              <div id="main_menu" onclick="w3_open()" style="margin-top: 20px; float: left; margin-right: 15px; display: none;">
+                <svg width="20px" height="18px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve">
+                <g>
+                  <rect y="36" width="302" height="30"/>
+                  <rect y="236" width="302" height="30"/>
+                  <rect y="136" width="302" height="30"/>
+                </g>
+                </svg>
+                </div>
+                <script src="//wurfl.io/wurfl.js" crossorigin></script>
+                <script>
+                  if (WURFL.is_mobile === true) {
+                    document.getElementById("main_menu").classList.add("display");
+                     }
+                </script>
+              <button style="display: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="toggler-icon"></span>

@@ -11,6 +11,9 @@
           align-items: center;
 }
 
+.display {
+  display: inline;
+}
 /*===========================
     01.COMMON css 
 ===========================*/
